@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Employees/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Employees.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Employees.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Employees/1.0.0": {
+      "type": "project",
+      "path": "../Employees/Employees.csproj",
+      "msbuildProject": "../Employees/Employees.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Employees >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\matheus.felipe\\.nuget\\packages\\": {}
@@ -33,7 +55,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\Employees.csproj": {
+              "projectPath": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\Employees.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
