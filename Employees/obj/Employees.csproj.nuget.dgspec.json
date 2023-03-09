@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\Employees.csproj": {}
+    "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Employees\\Employees.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\Employees.csproj": {
+    "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Employees\\Employees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\Employees.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Employees\\Employees.csproj",
         "projectName": "Employees",
-        "projectPath": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\Employees.csproj",
+        "projectPath": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Employees\\Employees.csproj",
         "packagesPath": "C:\\Users\\matheus.felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\obj\\",
+        "outputPath": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Employees\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matheus.felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",

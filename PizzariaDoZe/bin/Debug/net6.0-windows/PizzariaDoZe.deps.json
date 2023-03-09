@@ -8,15 +8,33 @@
     ".NETCoreApp,Version=v6.0": {
       "PizzariaDoZe/1.0.0": {
         "dependencies": {
-          "Employees": "1.0.0"
+          "Clients": "1.0.0",
+          "Employees": "1.0.0",
+          "Ingredientes": "1.0.0",
+          "Pizzas": "1.0.0"
         },
         "runtime": {
           "PizzariaDoZe.dll": {}
         }
       },
+      "Clients/1.0.0": {
+        "runtime": {
+          "Clients.dll": {}
+        }
+      },
       "Employees/1.0.0": {
         "runtime": {
           "Employees.dll": {}
+        }
+      },
+      "Ingredientes/1.0.0": {
+        "runtime": {
+          "Ingredientes.dll": {}
+        }
+      },
+      "Pizzas/1.0.0": {
+        "runtime": {
+          "Pizzas.dll": {}
         }
       }
     }
@@ -27,7 +45,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Clients/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Employees/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ingredientes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pizzas/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,17 @@
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\bin\Debug\net6.0-windows\Pizzas.exe
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\bin\Debug\net6.0-windows\Pizzas.deps.json
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\bin\Debug\net6.0-windows\Pizzas.runtimeconfig.json
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\bin\Debug\net6.0-windows\Pizzas.dll
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\bin\Debug\net6.0-windows\Pizzas.pdb
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.csproj.AssemblyReference.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.CadastroDePizza.resources
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.csproj.GenerateResource.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.AssemblyInfoInputs.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.AssemblyInfo.cs
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.csproj.CoreCompileInputs.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.dll
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\refint\Pizzas.dll
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.pdb
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\Pizzas.genruntimeconfig.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\Pizzas\obj\Debug\net6.0-windows\ref\Pizzas.dll
