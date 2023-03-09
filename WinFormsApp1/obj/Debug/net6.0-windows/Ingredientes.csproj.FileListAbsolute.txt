@@ -1,0 +1,17 @@
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\bin\Debug\net6.0-windows\Ingredientes.exe
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\bin\Debug\net6.0-windows\Ingredientes.deps.json
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\bin\Debug\net6.0-windows\Ingredientes.runtimeconfig.json
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\bin\Debug\net6.0-windows\Ingredientes.dll
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\bin\Debug\net6.0-windows\Ingredientes.pdb
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.csproj.AssemblyReference.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Ingredientes.resources
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.csproj.GenerateResource.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.AssemblyInfoInputs.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.AssemblyInfo.cs
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.csproj.CoreCompileInputs.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.dll
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\refint\Ingredientes.dll
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.pdb
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\Ingredientes.genruntimeconfig.cache
+C:\Users\matheus.felipe\Source\Repos\PizzariaProject\WinFormsApp1\obj\Debug\net6.0-windows\ref\Ingredientes.dll

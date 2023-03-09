@@ -9,7 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Clients\Clients.csproj" />
     <ProjectReference Include="..\Employees\Employees.csproj" />
+    <ProjectReference Include="..\Pizzas\Pizzas.csproj" />
+    <ProjectReference Include="..\WinFormsApp1\Ingredientes.csproj" />
   </ItemGroup>
 
 </Project>

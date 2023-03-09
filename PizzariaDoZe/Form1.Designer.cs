@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
+            Clients = new Button();
+            Pizzas = new Button();
+            Ingredientes = new Button();
             CadastroFuncionarios = new Button();
             panel2 = new Panel();
-            FormaPagamento = new Label();
+            FormaDePagamento = new Label();
             panel3 = new Panel();
             InfoPedido = new Label();
             panel1.SuspendLayout();
@@ -44,41 +44,45 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(button4);
-            panel1.Controls.Add(button3);
-            panel1.Controls.Add(button2);
+            panel1.BackColor = SystemColors.ControlText;
+            panel1.Controls.Add(Clients);
+            panel1.Controls.Add(Pizzas);
+            panel1.Controls.Add(Ingredientes);
             panel1.Controls.Add(CadastroFuncionarios);
             panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
             panel1.Size = new Size(776, 56);
             panel1.TabIndex = 0;
             // 
-            // button4
+            // Clients
             // 
-            button4.Location = new Point(630, 16);
-            button4.Name = "button4";
-            button4.Size = new Size(132, 23);
-            button4.TabIndex = 3;
-            button4.Text = "Pizzas";
-            button4.UseVisualStyleBackColor = true;
+            Clients.Location = new Point(492, 16);
+            Clients.Name = "Clients";
+            Clients.Size = new Size(132, 23);
+            Clients.TabIndex = 4;
+            Clients.Text = "Clientes";
+            Clients.UseVisualStyleBackColor = true;
+            Clients.Click += Clients_Click;
             // 
-            // button3
+            // Pizzas
             // 
-            button3.Location = new Point(354, 16);
-            button3.Name = "button3";
-            button3.Size = new Size(132, 23);
-            button3.TabIndex = 2;
-            button3.Text = "Pedidos";
-            button3.UseVisualStyleBackColor = true;
+            Pizzas.Location = new Point(630, 16);
+            Pizzas.Name = "Pizzas";
+            Pizzas.Size = new Size(132, 23);
+            Pizzas.TabIndex = 3;
+            Pizzas.Text = "Pizzas";
+            Pizzas.UseVisualStyleBackColor = true;
+            Pizzas.Click += Pizzas_Click;
             // 
-            // button2
+            // Ingredientes
             // 
-            button2.Location = new Point(492, 16);
-            button2.Name = "button2";
-            button2.Size = new Size(132, 23);
-            button2.TabIndex = 1;
-            button2.Text = "Clientes";
-            button2.UseVisualStyleBackColor = true;
+            Ingredientes.Location = new Point(354, 16);
+            Ingredientes.Name = "Ingredientes";
+            Ingredientes.Size = new Size(132, 23);
+            Ingredientes.TabIndex = 2;
+            Ingredientes.Text = "Ingredientes";
+            Ingredientes.UseVisualStyleBackColor = true;
+            Ingredientes.Click += Ingredientes_Click;
             // 
             // CadastroFuncionarios
             // 
@@ -92,23 +96,25 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(FormaPagamento);
+            panel2.BackColor = Color.Red;
+            panel2.Controls.Add(FormaDePagamento);
             panel2.Location = new Point(12, 85);
             panel2.Name = "panel2";
             panel2.Size = new Size(298, 353);
             panel2.TabIndex = 1;
             // 
-            // FormaPagamento
+            // FormaDePagamento
             // 
-            FormaPagamento.AutoSize = true;
-            FormaPagamento.Location = new Point(82, 22);
-            FormaPagamento.Name = "FormaPagamento";
-            FormaPagamento.Size = new Size(138, 15);
-            FormaPagamento.TabIndex = 3;
-            FormaPagamento.Text = "FORMA DE PAGAMENTO";
+            FormaDePagamento.AutoSize = true;
+            FormaDePagamento.Location = new Point(82, 22);
+            FormaDePagamento.Name = "FormaDePagamento";
+            FormaDePagamento.Size = new Size(138, 15);
+            FormaDePagamento.TabIndex = 3;
+            FormaDePagamento.Text = "FORMA DE PAGAMENTO";
             // 
             // panel3
             // 
+            panel3.BackColor = SystemColors.Highlight;
             panel3.Controls.Add(InfoPedido);
             panel3.Location = new Point(329, 85);
             panel3.Name = "panel3";
@@ -146,12 +152,12 @@
 
         private Panel panel1;
         private Panel panel2;
-        private Label FormaPagamento;
+        private Label FormaDePagamento;
         private Panel panel3;
         private Label InfoPedido;
-        private Button button4;
-        private Button button3;
-        private Button button2;
+        private Button Pizzas;
+        private Button Ingredientes;
         private Button CadastroFuncionarios;
+        private Button Clients;
     }
 }

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "Clients/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Clients.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clients.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Employees/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -14,19 +27,63 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
+      },
+      "Ingredientes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Ingredientes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ingredientes.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Pizzas/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Pizzas.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pizzas.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
   "libraries": {
+    "Clients/1.0.0": {
+      "type": "project",
+      "path": "../Clients/Clients.csproj",
+      "msbuildProject": "../Clients/Clients.csproj"
+    },
     "Employees/1.0.0": {
       "type": "project",
       "path": "../Employees/Employees.csproj",
       "msbuildProject": "../Employees/Employees.csproj"
+    },
+    "Ingredientes/1.0.0": {
+      "type": "project",
+      "path": "../WinFormsApp1/Ingredientes.csproj",
+      "msbuildProject": "../WinFormsApp1/Ingredientes.csproj"
+    },
+    "Pizzas/1.0.0": {
+      "type": "project",
+      "path": "../Pizzas/Pizzas.csproj",
+      "msbuildProject": "../Pizzas/Pizzas.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Employees >= 1.0.0"
+      "Clients >= 1.0.0",
+      "Employees >= 1.0.0",
+      "Ingredientes >= 1.0.0",
+      "Pizzas >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -35,11 +92,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\PizzariaDoZe.csproj",
+      "projectUniqueName": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\PizzariaDoZe\\PizzariaDoZe.csproj",
       "projectName": "PizzariaDoZe",
-      "projectPath": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\PizzariaDoZe.csproj",
+      "projectPath": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\PizzariaDoZe\\PizzariaDoZe.csproj",
       "packagesPath": "C:\\Users\\matheus.felipe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\obj\\",
+      "outputPath": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\PizzariaDoZe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matheus.felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,8 +113,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\Employees.csproj": {
-              "projectPath": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\Employees\\Employees.csproj"
+            "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Clients\\Clients.csproj": {
+              "projectPath": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Clients\\Clients.csproj"
+            },
+            "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Employees\\Employees.csproj": {
+              "projectPath": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Employees\\Employees.csproj"
+            },
+            "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Pizzas\\Pizzas.csproj": {
+              "projectPath": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\Pizzas\\Pizzas.csproj"
+            },
+            "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\WinFormsApp1\\Ingredientes.csproj": {
+              "projectPath": "C:\\Users\\matheus.felipe\\source\\repos\\PizzariaProject\\WinFormsApp1\\Ingredientes.csproj"
             }
           }
         }
