@@ -8,24 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\matheus\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\matheus.felipe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\PizzariaDoZe.csproj",
+      "projectUniqueName": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\PizzariaDoZe.csproj",
       "projectName": "PizzariaDoZe",
-      "projectPath": "C:\\Users\\matheus\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\PizzariaDoZe.csproj",
-      "packagesPath": "C:\\Users\\matheus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\obj\\",
+      "projectPath": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\PizzariaDoZe.csproj",
+      "packagesPath": "C:\\Users\\matheus.felipe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matheus.felipe\\Source\\Repos\\PizzariaProject\\PizzariaDoZe\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\matheus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\matheus.felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
