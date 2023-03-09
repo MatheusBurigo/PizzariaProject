@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PizzariaDoZe/1.0.0": {
+        "dependencies": {
+          "Employees": "1.0.0"
+        },
+        "runtime": {
+          "PizzariaDoZe.dll": {}
+        }
+      },
+      "Employees/1.0.0": {
+        "runtime": {
+          "Employees.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PizzariaDoZe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Employees/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
